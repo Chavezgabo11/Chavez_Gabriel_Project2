@@ -1,0 +1,125 @@
+body
+{
+	font-family: 'Cormorant Garamond', serif;
+	color: #DEDED7;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.siteContainer
+{
+	margin: 0 auto;
+	width: 1020px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/* Index - Page*/
+
+/*Id's*/
+
+#titleHeaderTxt{
+	font-size: 25px;
+	text-align: center;
+}
+
+#imageEnd{
+	margin-top: 40px;
+}
+
+
+/*Classes*/
+
+.bodyContainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.imageHeader{
+	width: 1020px;
+	height: 600px;
+	border-radius: 15px;
+}
+
+.titleTxt{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 25px;
+	padding: 1px;
+	color: #20242E;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.headerImage{
+	margin-top: 20px;
+}
+
+
+.textContainer{
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background-color: #947059;
+	border-radius: 15px;
+}
+
+
+.textEndContainer{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	background-color: #947059;
+	border-radius: 15px;
+}
+
+
+.txt{
+	line-height: 40px;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.labelTxt{
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+
+
+.labelContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+
+.Label{
+	margin-top: 50px;
+	flex-direction: column;
+	width: 500px;
+	background-color: #947059;
+	border-radius: 15px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.Label p{
+	font-size: 15px;
+	padding: 20px;
+}
+
+
+.labelImg{
+	width: 500px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
